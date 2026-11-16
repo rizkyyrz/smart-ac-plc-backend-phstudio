@@ -1,0 +1,10 @@
+{
+  "name": "smart-ac-rzky-plc-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Virtual PLC scan engine for Smart AC by RZKY Studio",
+  "type": "module",
+  "engines": {"node": ">=20"},
+  "scripts": {"start": "node server.js"},
+  "dependencies": {"@supabase/supabase-js": "^2.57.0", "ws": "^8.18.3"}
+}
